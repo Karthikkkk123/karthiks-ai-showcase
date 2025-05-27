@@ -91,7 +91,7 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Enhanced profile section with modern card design */}
+          {/* Enhanced profile section with your photo */}
           <div className="flex-1 flex justify-center lg:justify-end animate-scale-in" style={{ animationDelay: '0.5s' }}>
             <div className="relative group">
               {/* Background decorative elements */}
@@ -104,9 +104,13 @@ const Hero = () => {
                 
                 {/* Profile content */}
                 <div className="flex flex-col items-center justify-center h-full p-8 text-center">
-                  {/* Profile avatar */}
-                  <div className="w-32 h-32 lg:w-40 lg:h-40 rounded-2xl bg-gradient-to-br from-blue-100 via-indigo-100 to-purple-100 flex items-center justify-center mb-6 shadow-lg group-hover:scale-105 transition-transform duration-300">
-                    <span className="text-6xl lg:text-7xl filter drop-shadow-lg">👨‍💻</span>
+                  {/* Profile photo */}
+                  <div className="w-32 h-32 lg:w-40 lg:h-40 rounded-2xl overflow-hidden mb-6 shadow-lg group-hover:scale-105 transition-transform duration-300 border-4 border-white/50">
+                    <img 
+                      src="https://i.postimg.cc/90x1dbQm/ME.jpg" 
+                      alt="Karthikeya Pagidimarry"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   
                   {/* Profile info */}
