@@ -91,21 +91,21 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Enhanced profile section with your photo */}
+          {/* Enhanced profile section with larger photo */}
           <div className="flex-1 flex justify-center lg:justify-end animate-scale-in" style={{ animationDelay: '0.5s' }}>
             <div className="relative group">
               {/* Background decorative elements */}
-              <div className="absolute -inset-4 bg-gradient-to-r from-blue-400/20 via-purple-400/20 to-pink-400/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+              <div className="absolute -inset-6 bg-gradient-to-r from-blue-400/20 via-purple-400/20 to-pink-400/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
               
-              {/* Main card */}
-              <div className="relative w-80 h-80 lg:w-96 lg:h-96 bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl border border-white/50 overflow-hidden group-hover:shadow-3xl transition-all duration-500">
+              {/* Main card - larger and more prominent */}
+              <div className="relative w-96 h-96 lg:w-[28rem] lg:h-[28rem] bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl border border-white/50 overflow-hidden group-hover:shadow-3xl transition-all duration-500">
                 {/* Card header */}
                 <div className="absolute top-0 left-0 right-0 h-24 bg-gradient-to-r from-blue-500/10 to-purple-500/10"></div>
                 
                 {/* Profile content */}
                 <div className="flex flex-col items-center justify-center h-full p-8 text-center">
-                  {/* Profile photo */}
-                  <div className="w-32 h-32 lg:w-40 lg:h-40 rounded-2xl overflow-hidden mb-6 shadow-lg group-hover:scale-105 transition-transform duration-300 border-4 border-white/50">
+                  {/* Profile photo - much larger */}
+                  <div className="w-48 h-48 lg:w-56 lg:h-56 rounded-2xl overflow-hidden mb-6 shadow-lg group-hover:scale-105 transition-transform duration-300 border-4 border-white/50">
                     <img 
                       src="https://i.postimg.cc/90x1dbQm/ME.jpg" 
                       alt="Karthikeya Pagidimarry"
