@@ -91,47 +91,53 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Enhanced profile section with larger photo */}
+          {/* SIGNIFICANTLY ENHANCED profile section with MUCH LARGER and more visible photo */}
           <div className="flex-1 flex justify-center lg:justify-end animate-scale-in" style={{ animationDelay: '0.5s' }}>
             <div className="relative group">
-              {/* Background decorative elements */}
-              <div className="absolute -inset-6 bg-gradient-to-r from-blue-400/20 via-purple-400/20 to-pink-400/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+              {/* Enhanced background decorative elements */}
+              <div className="absolute -inset-8 bg-gradient-to-r from-blue-400/30 via-purple-400/30 to-pink-400/30 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-700 animate-pulse"></div>
               
-              {/* Main card - larger and more prominent */}
-              <div className="relative w-96 h-96 lg:w-[28rem] lg:h-[28rem] bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl border border-white/50 overflow-hidden group-hover:shadow-3xl transition-all duration-500">
-                {/* Card header */}
-                <div className="absolute top-0 left-0 right-0 h-24 bg-gradient-to-r from-blue-500/10 to-purple-500/10"></div>
+              {/* MUCH LARGER main card with better proportions */}
+              <div className="relative w-[32rem] h-[36rem] lg:w-[36rem] lg:h-[40rem] bg-white/95 backdrop-blur-lg rounded-3xl shadow-2xl border border-white/60 overflow-hidden group-hover:shadow-3xl transition-all duration-700 group-hover:scale-105">
+                {/* Enhanced card header with gradient */}
+                <div className="absolute top-0 left-0 right-0 h-28 bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-pink-500/20"></div>
                 
-                {/* Profile content */}
-                <div className="flex flex-col items-center justify-center h-full p-8 text-center">
-                  {/* Profile photo - much larger */}
-                  <div className="w-48 h-48 lg:w-56 lg:h-56 rounded-2xl overflow-hidden mb-6 shadow-lg group-hover:scale-105 transition-transform duration-300 border-4 border-white/50">
+                {/* Profile content with better spacing */}
+                <div className="flex flex-col items-center justify-center h-full p-8 text-center relative z-10">
+                  {/* MUCH LARGER profile photo - now truly prominent */}
+                  <div className="w-72 h-72 lg:w-80 lg:h-80 rounded-3xl overflow-hidden mb-8 shadow-2xl group-hover:scale-110 transition-transform duration-500 border-4 border-white/80 bg-white">
                     <img 
                       src="https://i.postimg.cc/90x1dbQm/ME.jpg" 
                       alt="Karthikeya Pagidimarry"
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover object-center"
+                      style={{ objectPosition: 'center top' }}
                     />
                   </div>
                   
-                  {/* Profile info */}
-                  <div className="space-y-3">
-                    <h3 className="text-xl font-bold text-gray-800">Karthikeya P.</h3>
-                    <div className="space-y-1">
-                      <p className="text-blue-600 font-semibold text-sm">AI Developer</p>
-                      <p className="text-gray-500 text-sm">BTech Computer Science</p>
-                      <p className="text-purple-600 text-xs font-medium">"Adaptable & Innovative"</p>
+                  {/* Enhanced profile info */}
+                  <div className="space-y-4">
+                    <h3 className="text-2xl lg:text-3xl font-bold text-gray-800">Karthikeya Pagidimarry</h3>
+                    <div className="space-y-2">
+                      <p className="text-blue-600 font-bold text-lg">AI Developer & Researcher</p>
+                      <p className="text-gray-600 font-medium">BTech Computer Science</p>
+                      <p className="text-purple-600 text-sm font-semibold bg-purple-50 px-4 py-2 rounded-full inline-block">"Adaptable & Innovative Problem Solver"</p>
                     </div>
                   </div>
 
-                  {/* Floating badges */}
-                  <div className="absolute top-6 right-6 bg-green-100 text-green-700 text-xs px-3 py-1 rounded-full font-medium">
+                  {/* Enhanced floating badges */}
+                  <div className="absolute top-8 right-8 bg-gradient-to-r from-green-400 to-green-500 text-white text-sm px-4 py-2 rounded-full font-bold shadow-lg">
                     5+ Hackathon Wins
+                  </div>
+                  
+                  <div className="absolute top-8 left-8 bg-gradient-to-r from-blue-400 to-blue-500 text-white text-xs px-3 py-1 rounded-full font-medium shadow-lg">
+                    AI Specialist
                   </div>
                 </div>
 
-                {/* Decorative elements */}
-                <div className="absolute bottom-4 left-4 w-12 h-12 bg-gradient-to-br from-blue-200/50 to-purple-200/50 rounded-full"></div>
-                <div className="absolute top-20 right-4 w-8 h-8 bg-gradient-to-br from-purple-200/50 to-pink-200/50 rounded-lg rotate-45"></div>
+                {/* Enhanced decorative elements */}
+                <div className="absolute bottom-8 left-8 w-16 h-16 bg-gradient-to-br from-blue-300/60 to-purple-300/60 rounded-full blur-sm"></div>
+                <div className="absolute top-32 right-8 w-12 h-12 bg-gradient-to-br from-purple-300/60 to-pink-300/60 rounded-lg rotate-45 blur-sm"></div>
+                <div className="absolute bottom-20 right-12 w-8 h-8 bg-gradient-to-br from-pink-300/60 to-orange-300/60 rounded-full blur-sm"></div>
               </div>
             </div>
           </div>
